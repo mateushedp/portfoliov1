@@ -1,0 +1,48 @@
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.About {
+  width: 50%;
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.Description {
+  font-size: 25px;
+}
+
+.ResumeDiv {
+  display: flex;
+  align-items: flex-end;
+  height: 30px;
+}
+
+.ResumeDiv .Icon {
+  padding-bottom: 1px;
+  padding-right: 5px;
+}
+
+@media only screen and (max-width: 950px) {
+  /* For mobile phones: */
+  .About {
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .Description {
+    font-size: 18px;
+  }
+
+  .ResumeDiv {
+    justify-content: center;
+  }
+
+  .ResumeDiv a {
+    font-size: 18px;
+  }
+}
